@@ -7,21 +7,46 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid #fff;
+  border-right: 8px solid #fff;
 }
 
 .title {
-  background: #e3f4ff;
+  background: #e3f4fd;
+  border: 8px solid #e3f4ff;
+  font-size: 16px;
+  margin-top: 4px;
 }
 
 .content {
   background: #e3f4ff;
+  border-top: 16px solid #e3f4ff;
+  border-bottom: 16px solid #e3f4ff;
+  border-left: 8px solid #e3f4ff;
+  border-right: 8px solid #e3f4ff;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
+  border-top: 8px solid #eff;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  text-align: center;
+  display: block;
+  /*borders,paddings,margins example for next time 
+  border:8px (top) 24px (sides)
+  might not be necessary to add solid colors too.*/
+  border-bottom: 8px solid white;
+  border-top: 8px solid white;
+  border-left: 24px solid white;
+  border-right: 24px solid white;
+  margin: 0 auto;
 }
