@@ -1,5 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  
+ 
 }
 
 img {
@@ -10,6 +12,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  text-align: center;
+  margin:32px;
+
+}
+
+.items{
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.images,.items{
+ display: flex;
+ justify-content: space-around;
+ gap:52px;
+}
+.text{
+  max-width: 200px;
 }
 
 /* do not edit this footer */
@@ -24,3 +44,8 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*for future reference, try not to
+use to many elements. instead, understand
+the mechanics of each element. this will make
+code easier to understand and maintain*/
